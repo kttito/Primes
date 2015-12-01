@@ -17,35 +17,35 @@
 </head>
 <body>
   <div class="container-top">
-    <nav class="navbar navbar-default">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><I class="icon ion-ios-star-half"></I>PRIMES</a>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
     <div class="text-hero">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><I class="icon ion-ios-star-half"></I>PRIMES</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
       <div class="container text-center">
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <h1 class="text-center">Launch Your Business with Primes</h1>
+            <h1 class="text-center">Launch Your <strong>Business,</strong> with <strong>Primes</strong></h1>
             <p>Vivamus commodo felis quis dui pharetra, ac venenatis magna lacinia. Vestibulum quis dignissim nibh. Duis vitae felis orci.</p>
             <div class="botones">
               <a href="#" class="btn btn-primary btn-lg">Our portfolio</a>
@@ -94,11 +94,11 @@
       </div>
     </div>
   </div>
-  <div class="content-feat text-center">
+  <div id="features" class="content-feat text-center">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>More Features</h2>
+          <h2 class="title-container">More Features</h2>
           <img src="img/laptop-features.png" alt="laptops">
         </div>
       </div>
@@ -156,11 +156,11 @@
       </div>
     </div>
   </div>
-  <div class="content-portfolio text-center">
+  <div id="portfolio" class="content-portfolio text-center">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>Portfolio</h2>
+          <h2 class="title-container">Portfolio</h2>
           <p>Ut lobortis est, quis ornare vitae varius felis itae varius elementum quis ornare varius felis orci tris nils.</p>
           <div class="botones">
             <a class="btn btn-info btn-lg" href="#">Show all</a>
@@ -229,11 +229,11 @@
       <button class="btn btn-link btn-lg">Call to Action</button>
     </div>
   </div>
-  <div class="content-package text-center">
+  <div id="pricing" class="content-package text-center">
     <div class="container">
       <div class="row">
         <div>
-          <h2>Choose the package</h2>
+          <h2 class="title-container">Choose the package</h2>
           <p>Class apent tacti aliquuam odio aliquet dolor mi, vitae varius felis vitae varius felis.</p>
         </div>
       </div>
@@ -302,7 +302,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>What our customers have to say...</h2>
+          <h2 class="title-container">What our customers have to say...</h2>
           <img class="mujer" src="img/customer.jpg" alt="mujer">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus id laboriosam, reprehenderit, odio repellendus. Officiis iste nostrum atque necessitatibus ste nostrum atque necessitatibus quidem.</p>
           <p><strong>-Diane Rosswert</strong></p>
@@ -310,37 +310,43 @@
       </div>
     </div>
   </div>
-  <div class="content-contact">
+  <div id="contact" class="content-contact">
     <div class="overlay">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="text-center">
-              <h2>Contact Us</h2>
+              <h2 class="title-container">Contact Us</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed iure vel mollitia perspiciatis! Porro blanditiis molestias iure vel mollitia persp s molestias iure.</p> 
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <h3>Send message</h3>
-            <form>
-              <div class="form-group"> 
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-              </div>
-              <div class="form-group"> 
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Subjet">
-              </div>
-              <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-              <button type="submit" class="btn btn-info btn-lg btn-submit">Submit</button>
-            </form>
+            <div class="padding-30">
+              <h3>Send message</h3>
+              <form>
+                <div class="form-group"> 
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group"> 
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Subjet">
+                </div>
+                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                <button type="submit" class="btn btn-info btn-lg btn-submit">Submit</button>
+              </form>
+            </div>
           </div>
           <div class="col-md-6">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil, quasi neque cupiditate distinctio, autem beatae, necessitatibus ut ullam porro! Error dolores porro facilis  dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil  dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil, quasi neque cupiditate distinctio, autem beatae, necessitatibus ut ullam porro! Error dolores porro facil.</p>
-            <h4>Address</h4>
-            <i class="icon ion-location"></i> 13 Brant Street, Burlington, Ontario, Canada </br>
-            <i class="icon ion-ios-telephone"></i> Phone 0011 222 335 7773
+            <div class="padding-30">
+              <h3>About Us</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil, quasi neque cupiditate distinctio, autem beatae, necessitatibus ut ullam porro! Error dolores porro facilis  dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil  dolor sit amet, consectetur adipisicing elit. Illo quam ipsam itaque architecto laboriosam nisi, nihil, quasi neque cupiditate distinctio, autem beatae, necessitatibus ut ullam porro! Error dolores porro facil.</p>
+              <h4>Address</h4>
+              <ul>
+                <li><i class="icon ion-location"></i> 13 Brant Street, Burlington, Ontario, Canada</li>
+                <li><i class="icon ion-ios-telephone"></i> Phone 0011 222 335 7773</li>
+              </ul>  
+            </div>
           </div>
         </div>
       </div>
@@ -348,7 +354,7 @@
   </div>
   <footer class="redes text-center">
     <div class="social">
-      <h2>Folow Us!</h2>
+      <h2 class="title-container">Folow Us!</h2>
       </br>
       <p>Class itaque aptent taciti ipsam quam ipsam  nihil dolor sit ameitaque itaque architecto laboriosam itaque nisi tellus nisi. </br>Alliquam impedier nulla id itaque architecto laboriosam.</p>
       </br>
