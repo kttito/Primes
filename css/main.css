@@ -1,5 +1,8 @@
 /*{outline: 1px solid red;
 }*/
+body{
+	font-family: 'Dosis', sans-serif;
+}
 .container-top .navbar-default .navbar-header .navbar-brand{
 	color: #fff;
 	font-size: 20px;
@@ -22,7 +25,12 @@
 .navbar-default .navbar-nav>li>a:hover{
 	color: #199EA5;
 }
-
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #009CA8;
+    background-color: transparent;
+}
 .container-top{
 	background: url(../img/background/hero.jpg);
 	background-size: cover;
@@ -226,7 +234,7 @@ footer ul{
 	padding-top: 50px;
 }
 .redes .icon{
-	font-size: 50px;
+	font-size: 41px;
 	color: #323A45;
 	margin: 0 10px;
 }
