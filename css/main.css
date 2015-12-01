@@ -1,10 +1,18 @@
-/**{outline: 1px solid red;
+/*{outline: 1px solid red;
 }*/
+.container-top .navbar-default .navbar-header .navbar-brand{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus{
+	color: #009CA8;
+	background-color: transparent;
+}
 .navbar-default{
 	background-color: transparent;
 	border-color: transparent;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 .navbar-default .navbar-nav>li>a{
 	color: #fff;
@@ -46,6 +54,7 @@
 .btn-primary{
 	background-color: #2D313A;
 	border-color: #2D313A;
+	margin: 20px 0;
 }
 .btn-primary:hover{
 	background-color: #384147;
@@ -78,9 +87,13 @@
 /*more features*/
 .content-feat{
 	background-color: #F4F4F4;
+	padding: 20px 0;
 }
 .content-feat img{
 	width: 100%;
+}
+.content-items{
+	margin: 45px 0;
 }
 .content-items .icon{
 	font-size: 30px;
@@ -89,6 +102,7 @@
 /*portfolio*/
 .content-portfolio{
 	background-color: #F4F4F4;
+	padding: 20px 0;
 }
 .content-portfolio .portfolio-item{
 	background-color: #fff;
@@ -135,6 +149,7 @@
 /*package*/
 .content-package{
 	background-color: #F4F4F4;
+	padding: 15px 0 60px 0;
 }
 .content-package .columna{
 	background-color: #fff;
@@ -165,9 +180,14 @@
 .list-group-item{
 	padding: 15px;
 }
+/****customer***/
+.content-cost{
+	margin: 80px 0;
+}
 .content-cost .mujer{
 	width: 100px;
 	border-radius: 50%;
+	margin: 40px 0 20px 0;
 }
 /*contact****************/
 .content-contact{
@@ -186,6 +206,9 @@
 	color: rgba(255, 255, 255, 0.5);
 }
 /*footer************/
+.redes .social{
+	margin: 70px 0;
+}
 footer ul li{
 	list-style: none;
 	display: inline-block;
