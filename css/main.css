@@ -13,6 +13,9 @@ h2.title-container{
 	font-size: 20px;
 	font-weight: bold;
 }
+.container-top .navbar-default.affix .navbar-header .navbar-brand{
+	color:#2D313A;
+}
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus{
 	color: #009CA8;
@@ -22,6 +25,29 @@ h2.title-container{
 	background-color: transparent;
 	border-color: transparent;
 	margin-bottom:150px;
+	transition: background-color 0.5s;
+}
+.navbar-default.affix{
+	width: 100%;
+	margin-bottom: 0px;
+	background-color: #fff;
+	top:0;
+	z-index:1004;
+	-webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.5);
+}
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form{
+	border-color: transparent;
+}
+.navbar-default.affix .navbar-nav>li>a{
+	color: #2D313A;
+}
+.navbar-default.affix .navbar-nav>.active>a, 
+.navbar-default.affix .navbar-nav>.active>a:focus, 
+.navbar-default.affix .navbar-nav>.active>a:hover{
+	color: #009CA8;
 }
 .navbar-default .navbar-nav>li>a{
 	color: #fff;
